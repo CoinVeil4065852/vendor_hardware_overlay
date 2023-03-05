@@ -3,6 +3,7 @@
           android:versionCode="1"
           android:versionName="1.0">
     <overlay android:targetPackage="com.android.wifi.resources"
+             android:targetName="WifiCustomization"
              android:requiredSystemPropertyName="ro.vendor.build.fingerprint"
              android:requiredSystemPropertyValue="+(*samsung/x1q*|*samsung/x1s*)"
              android:priority="5591"
