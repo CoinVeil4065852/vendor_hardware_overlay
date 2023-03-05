@@ -2,4 +2,12 @@
 <resources>
     <bool name="config_wifi_connected_mac_randomization_supported">true</bool>
     <bool name="config_wifi_p2p_mac_randomization_supported">true</bool>
+    <bool name="config_wifiSofapClientForceDisconnectSupported">false</bool>
+    <bool name="config_wifiSoftapResetChannelConfig">false</bool>
+    <bool name="config_wifiSoftapResetHiddenConfig">false</bool>
+    <bool name="config_wifiSoftapResetMaxClientSettingConfig">false</bool>
+    <bool name="config_wifi_softap_acs_supported">true</bool>
+    <integer name="config_wifiHardwareSoftapMaxClientCount">10</integer>
+    <string name="config_wifiSoftap2gChannelList">1-11</string>
+    <string name="config_wifiSoftap5gChannelList">149</string>
 </resources>
